@@ -2,6 +2,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
 * {
     box-sizing: border-box
 }
@@ -78,6 +81,7 @@ html {
     flex-wrap: wrap;
     justify-content: flex-start;
     justify-content: space-between;
+    background-color:#DFCFBE;
 }
 
 .shopQuote {
@@ -97,25 +101,27 @@ h1 {
     color: rgb(48, 194, 94);
 }
 
-#bestsellers {
+#bestsellers1 {
     border: 2px solid black;
     border-radius: 15px;
-    background-color: rgb(26, 29, 89);
-    color: gold;
+    background-color: #CFB095;
     font-size: 18px;
 }
 
-#cursive {
+.cursive {
+    background-color: #EFC050;
     text-align: center;
     font-family: 'Indie Flower', cursive;
 }
 
 h2 {
+    background: #EFC050 ;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .cards {
+    background: #EFC050;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -138,7 +144,7 @@ h2 {
 
 .descrip {
     font-family: 'BIZ UDGothic', sans-serif;
-    text-align: justify;
+    text-align: left;
     padding-top: 15px;
 }
 
@@ -155,7 +161,8 @@ h2 {
     background-color: rgb(0, 235, 252);
 }
 
-#fiction {
+#fiction1 {
+    background-color: #EFE1CE;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -187,7 +194,8 @@ h2 {
     z-index: 2
 }
 
-#non-fiction {
+#non-fiction1 {
+    background-color: #E8A798;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -230,7 +238,9 @@ h2 {
 .name {
     font-size: 12px;
     font-family: 'Finlandica', sans-serif;
-    color: crimson;
+    color: rgb(13, 35, 54);
+    /* border: 2px solid rgb(57, 57, 227);
+    width: 100px; */
 }
 
 .writings {
@@ -257,7 +267,7 @@ h2 {
 }
 
 input[type=button] {
-    background-color: orange;
+    background-color:#282D3C;
     color: white;
     padding: 12px 20px;
     border: 2px solid black;
@@ -293,20 +303,37 @@ input[type=button] {
 
 .contacts {
     color: rgb(216, 241, 74);
-    font-size: 18px;
-    border: 2px solid black;
+    border: 2px solid rgb(38, 216, 116);
     border-radius: 5px;
     padding: 12px;
     font-family: 'Lexend Mega', sans-serif;
-    line-height: 5em;
+    width: 300px;
+    line-height: 2em;
+    white-space:nowrap;
+    margin-right: 10px;
 }
-
+#contacts1{
+    padding-left: 50px;
+    text-align: center;
+    font-size: larger;
+    color: #FFFFFF;
+}
 .social-media {
+    padding-left: 10px;
+    padding-bottom: 10px;
     font-size: medium;
     color: rgb(107, 235, 224);
+    font-size: 18px;
     font-family: 'Eagle Lake', cursive;
 }
-
+.icons{
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -339,6 +366,7 @@ input[type=button] {
     /* float: bottom; */
     margin-top: 13px;
     margin-right: 10px;
+    margin-left: 75px;
 }
 .certificate{
     border-radius: 5px;
@@ -347,8 +375,10 @@ input[type=button] {
     border: 3px solid white;
 }
 .scroll-up{
-    float: none;
+    margin-top: 300px;
+    margin-right: 100px;
     padding-right: 10px;
+    float: right;
 }
 .top {
     text-decoration: none;
@@ -372,4 +402,17 @@ input[type=button] {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 15px 15px;
+}
+#btn{
+    margin-top: 10px;
+    font-family: 'Gulzar', serif;
+}
+#c1{
+    background-color: #FE840E;
+}
+#c2{
+    background-color: #D69C2F;
+}
+#c3{
+    background-color: #FA9A85;
 }
